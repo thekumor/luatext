@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luatext", "luatext.vcxproj", "{992358E0-1305-4916-AC70-B680D4345232}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{992358E0-1305-4916-AC70-B680D4345232}.Debug|x64.ActiveCfg = Debug|x64
+		{992358E0-1305-4916-AC70-B680D4345232}.Debug|x64.Build.0 = Debug|x64
+		{992358E0-1305-4916-AC70-B680D4345232}.Release|x64.ActiveCfg = Release|x64
+		{992358E0-1305-4916-AC70-B680D4345232}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52E10F1B-8BE5-45A9-BE02-901E82D82CD1}
+	EndGlobalSection
+EndGlobal
