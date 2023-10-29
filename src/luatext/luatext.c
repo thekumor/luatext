@@ -7,6 +7,8 @@
 #include <windows.h>
 #endif
 
+#define FILE_READ_BUFFER_SIZE 65536
+
 /*----------------------------------
 	Prints error to the console.
 -----------------------------------*/
@@ -144,12 +146,12 @@ static int LT_ReadFile(lua_State* L)
 		return 2;
 	}
 
-	char buffer[65536];
+	char buffer[FILE_READ_BUFFER_SIZE];
 
 	char ch = 0;
 	unsigned int i = 0;
-	
-	for (i = 0; ch != EOF && i < 65535; i++)
+
+	for (i = 0; ch != EOF && i < FILE_READ_BUFFER_SIZE; i++)
 	{
 		ch = fgetc(handle);
 		buffer[i] = ch;
